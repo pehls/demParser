@@ -15,29 +15,36 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-		</plugins>
-	</build>
-
+</plugins>
+</build>
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
 		<dependency>
 			<groupId>com.google.protobuf</groupId>
 			<artifactId>protobuf-java</artifactId>
-			<version>2.4.1</version>
+			<version>3.3.1</version>
 		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.xerial.snappy/snappy-java -->
 		<dependency>
 			<groupId>org.xerial.snappy</groupId>
 			<artifactId>snappy-java</artifactId>
-			<version>1.0.5</version>
+			<version>1.1.4</version>
 		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/com.github.os72/protoc-jar -->
 		<dependency>
 			<groupId>com.github.os72</groupId>
 			<artifactId>protoc-jar</artifactId>
-			<version>2.4.1.0</version>
+			<version>3.3.0.1</version>
 		</dependency>
 
 
